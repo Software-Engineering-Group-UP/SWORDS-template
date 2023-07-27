@@ -1,0 +1,88 @@
+Prof. Nora Kulak ist neue Universitätsprofessorin für Anorganische Chemie an der Universität Potsdam
+Prof. Kulak studierte Chemie in Heidelberg, wo sie auch promovierte. Postdoc-Aufenthalte führen sie nach Berlin an die Bundesanstalt für Materialforschung und –prüfung, sowie an das Massachusetts Institute of Technology in Cambridge/USA. Ab 2011 war sie Juniorprofessorin an der FU Berlin und ab 2020 Professorin für Anorganische Chemie an der Otto-von-Guericke-Universität Magdeburg.
+Greeting from the managing director Prof. Dr. H. Schlaad
+
+Prof. Dr. Helmut Schlaad
+Prof. Heiko Möller
+Prof. Andreas Taubert
+Prof. Nora Kulak
+Prof. Amitabh Banerji
+Prof. Bernd Schmidt
+Prof. Pablo Wessig
+Prof. Torsten Linker
+JProf. Henrike Müller-Werkmeister
+Prof. Ilko Bald (komm.)
+Prof. Peter Saalfrank
+Prof. Helmut Schlaad
+Prof. Ilko Bald
+Prof. Alexander Böker
+Prof. André Laschewsky
+Prof. Yan Lu
+apl. Prof. Judith Schicks
+apl. Prof. Michael U. Kumke
+apl. Prof. Tillmann Klamroth
+Prof. Markus Antonietti
+Prof. Peter Seeberger
+
+<h2>Analytical Chemistry</h2>
+<p><a class="more" href="../groups/bionmr/">Prof. Heiko M&ouml;ller</a> - <em>Analytical Chemistry </em></p>
+<h2>Inorganic Chemistry</h2>
+<p><a class="more" href="../groups/anorganik">Prof. Hans-J&uuml;rgen Holdt</a> - <em>Inorganic Chemistry</em></p>
+<p><a class="more" href="../groups/ag-str/">N.N.</a> - <em>Inorganic Materials Chemistry</em></p>
+<p><a class="more" href="http://www.taubert-lab.net">Prof. Andreas Taubert</a> - <em>Supramolecular Chemistry </em></p>
+<h2>Didactics of Chemistry</h2><p><a class="more" href="../groups/didaktik/index.html">apl. Prof. Brigitte Duvinage</a></p>
+
+<h2>Organic Chemistry</h2>
+<p><a class="more" href="../groups/ochome/">Prof. Torsten Linker</a> - <em>Organic Chemistry</em></p>
+<p><a class="more" href="../groups/schmidt/index.htm">Prof. Bernd Schmidt</a> - <em>Organic Syntheses</em></p>
+<p><a class="more" href="http://ag-wessig.chem.uni-potsdam.de/">Prof. Pablo Wessig</a> - <em>Bioorganic Chemistry</em></p>
+<h2>Physical and Theoretical Chemistry</h2>
+<p><a class="more" href="../groups/pc/">Prof. Hans-Gerd L&ouml;hmannsr&ouml;ben</a> - <em>Physical Chemistry</em></p>
+<p><a class="more" href="http://www.uni-potsdam.de/theochem/index.html">Prof. Peter Saalfrank</a> - <em>Theoretical Chemistry</em></p>
+<p><a class="more" href="https://www.uni-potsdam.de/usd/index.html">JProf. Henrike Müller-Werkmeister</a> - <em>Physical Chemistry</em></p>
+<p><a class="more" href="https://www.uni-potsdam.de/compchem">JProf. Thomas K&ouml;rzd&ouml;rfer</a> - <em>Theoretical Chemistry</em></p>
+<p><a class="more" href="http://www.uni-potsdam.de/osci">JProf. Ilko Bald</a> - <em>Physical Chemistry</em></p>
+
+<h2>Colloidal and Polymer Chemistry</h2>
+<p><a class="more" href="../groups/kolloid/index.htm">Prof. Joachim Koetz</a> - <em>Colloidal Chemistry</em></p>
+<p><a class="more" href="http://www.chem.uni-potsdam.de/groups/polymer/">Prof. Helmut Schlaad</a> - <em>Polymer Chemistry</em></p>
+<h2>Joint Professors</h2>
+
+
+
+<table class=gemein border=0>
+<tr>
+<td width=43%><a class="more" href="http://www.chem.uni-potsdam.de/groups/boeker/">Prof. Alexander B&ouml;ker</a></td>
+<td>- Polymer materials and Polymer technologies (together with <a href="http://www.iap.fraunhofer.de/">IAP</a>)</em></td>
+</tr><tr>
+<td><a class="more" href="groups/apc/ ">Prof. Andr&eacute; Laschewsky</a></td>
+<td>- Applied Polymer Chemistry (together with <a href="http://www.iap.fraunhofer.de/">IAP</a>)</td>
+</tr><tr>
+<td><a class="more" href="http://www.uni-potsdam.de/biomaterialforschung/">Prof. Andreas Lendlein</a></td>
+<td>- Materials in Life Sciences (together with <a href="http://www.hzg.de/">HZG</a>)</td>
+</tr><tr>
+<td><a class="more" href="https://www.helmholtz-berlin.de/pubbin/vkart.pl?v=aququ">Prof. Yan Lu</a></td>
+<td>- Polymer based Hybrid Materials (together with <a href=https://www.helmholtz-berlin.de/>HZB)</a></td>
+</tr></table>
+
+
+<p><a title="Polymer materials and Polymer technologies" class="more" href="http://www.chem.uni-potsdam.de/groups/boeker/">Prof. Alexander B&ouml;ker</a> - <em><a title="Fraunhofer-Institut für Angewandte Polymerforschung IAP" href="http://www.iap.fraunhofer.de/">IAP</a></em></a></p>
+<p><a title="Applied Polymer Chemistry" class="more" href="groups/apc/ ">Prof. Andr&eacute; Laschewsky</a> - <em><a title="Fraunhofer-Institut für Angewandte Polymerforschung IAP" href="http://www.iap.fraunhofer.de/">IAP</a></em></a></p>
+<p><a title="Materials in Life Sciences" class="more" href="http://www.uni-potsdam.de/biomaterialforschung/">Prof. Andreas Lendlein</a> - <em><a title="Hemlholtz Zentrum Geesthacht" href="http://www.hzg.de/">HZG</a></em></td>
+<p><a title="Polymer based Hybrid Materials" class="more" href="https://www.helmholtz-berlin.de/pubbin/vkart.pl?v=aququ">Prof. Yan Lu</a> - <em><a title="Helmholtz Zentrum Berlin" href=https://www.helmholtz-berlin.de/>HZB</a></em></p>
+
+
+<h2>Further research groups</h2>
+<p><a title="Functional nanostructures" class=more href="http://www.chem.uni-potsdam.de/groups/optsens/index-e.html">Dr. Claudia Pacholski</a></p>
+<p><a title="Applied optical sensing and spectroscopy" class=more href="http://www.uni-potsdam.de/en/muk">apl. Prof. Dr. Michael U. Kumke</a></p>
+<p><a title="Coordination chemistry, X-ray structure analysis, Ion exchange" class=more href="http://www.chem.uni-potsdam.de/groups/anorganik/schilde.htm">apl. Prof. Dr. Uwe Schilde</a></p>
+
+<h2>Honorary Professors</h2>
+<p><a class="more" href="http://www.mpikg.mpg.de/145657/Colloid_Chemistry">Prof. Dr. Markus Antonietti</a>
+<em>(<a href="http://www.mpikg.mpg.de/en">MPIKG</a>)</em></p>
+<p><a class="more" href="https://www.fraunhofer.de/de/presse/presseinformationen/2013/Mai/prof-ulrich-buller-verabschiedet-sich-in-den-ruhestand.html">Prof. Dr. Ulrich Buller</a>
+<em>(<a href="http://www.fraunhofer.de/en.html">FHG</a>)</em></p>
+<p><a class="more" href="http://www.mpg.de/430718/kolloid_grenzflaechen_wissM9">Prof. Dr. Peter H. Seeberger</a> - <em>
+(<a href="http://www.mpikg.mpg.de/en">MPIKG</a>)
+</em></p>
+

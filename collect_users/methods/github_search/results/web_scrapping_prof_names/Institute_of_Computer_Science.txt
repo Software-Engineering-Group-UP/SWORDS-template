@@ -1,0 +1,39 @@
+keyword: Prof
+link: https://www.uni-potsdam.de/en/cs/research-groups/index
+Profiles, Programs and Projects
+Profiles, Programs and Projects
+ Professurs at the Institute for Computer Science 
+- Prof. Dr. Bettina Schnor
+- N.N. - Deputy Professor: Dr. Nadine Dittert
+- Prof. Dr.-Ing. habil. Ulrike Lucke
+- Prof. Dr. Tobias Scheffer
+- Prof. Dr. Anna-Lena Lamprecht
+- Prof. Dr. Christoph Kreitz
+- Prof. Dr. Torsten Schaub
+- Prof. Dr.-Ing. Milos Krstic (joint appointment with "innovations for high performance microelectronics" Frankfurt/Oder, IHP)
+- Prof. Dr.-Ing. Benno Stabernack (joint appointment with Fraunhofer Heinrich-Hertz Institute Berlin, HHI)
+ - Prof. Dr. Marina Höhne (joint appointment with Leibniz Institute for Agricultural Engineering and Bioeconomy Potsdam, ATB)
+- Prof. Dr.-Ing. Norbert Gronau, Faculty of Economics and Social Sciences
+- Prof. Dr. Manfred Stede, Department of Linguistics
+- Prof. Dr. Michael Gössel
+ Assistant Professors 
+ Other Computer Science (or closely related) Professors 
+- Prof. Dr. Tobias Friedrich
+- Prof. Dr. rer. nat. habil. Andreas Polze
+- Prof. Dr. Mathias Weske
+- Prof. Dr. Jürgen Döllner
+- Prof. Dr. h.c. Hasso Plattner
+- Prof. Dr. Patrick Baudisch
+- Prof. Dr. Felix Naumann
+- Prof. Dr. Christoph Meinel
+- Prof. Dr. Emmanuel  Müller
+- Prof. Ulrich Weinberg
+- Prof. Dr. Robert Hirschfeld
+- Prof. Dr. Holger Giese
+- Prof. Dr. Wilhelm Huisinga
+- Prof. Dr. Bodo Bookhagen
+  - Prof. Dr. Hanna Krasnova
+- Prof. Dr. Shravan Vasishth
+Geodata Infrastructures, Honorary Professor
+Network Technology and Multimedia Services, Honorary Professor
+Neural Networks and Time Series Analysis, Honorary Professor
