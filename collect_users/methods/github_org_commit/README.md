@@ -22,6 +22,7 @@ python github_org_commit.py --org orgnisation_name
 ```
 You can find the organisation names after executing [GitHub Search](methods/github_search) and filtering csv files with organiszation
 The collected GitHub user identifiers are stored in the results folder. 
+This command will create ``<orgnisation_name>.csv`` in results folder. Comabine all files manually before merging and enriching them.
 
 ## License
 
