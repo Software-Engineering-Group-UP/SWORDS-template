@@ -34,6 +34,12 @@ It will not scrape users if the organization has private members. Contributors o
 python github_repo_contributors.py --repo <repo_nam> --owner <org_name>
 ```
 
+Combine the collected csv file into single csv file called github_org_commit.csv 
+
+```console
+python combine_csv.py results/
+```
+
 ## License
 
 See [LICENSE](../../LICENSE).

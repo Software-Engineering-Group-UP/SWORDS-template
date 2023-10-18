@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import argparse
 
+
 def combine_csv_files_from_subfolders(root_dir):
     # Check if the provided directory exists
     if not os.path.exists(root_dir):
@@ -26,16 +27,18 @@ def combine_csv_files_from_subfolders(root_dir):
                     all_dataframes.append(df)
                     print(f"Combining '{file}' from folder '{subdir}'")
                 except pd.errors.EmptyDataError:
-                    print(f"Warning: The file '{file}' in folder '{subdir}' is empty or has no valid CSV data. Skipping.")
+                    print(
+                        f"Warning: The file '{file}' in folder '{subdir}' is empty or has no valid CSV data. Skipping.")
 
     if not all_dataframes:
         print("No CSV files found in the specified directory and its sub-directories.")
         return
 
     combined_df = pd.concat(all_dataframes, ignore_index=True)
-    combined_csv_path = os.path.join(root_dir, "combined.csv")
+    combined_csv_path = os.path.join(root_dir, "github_org_commit.csv")
     combined_df.to_csv(combined_csv_path, index=False)
     print(f"Finished combining. The combined CSV file is saved as '{combined_csv_path}'")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Combine CSV files from subfolders into a single CSV.")

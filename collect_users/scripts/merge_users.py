@@ -6,11 +6,9 @@ import glob
 import pathlib
 from pathlib import Path
 from datetime import datetime
-
 import pandas as pd
 
 if __name__ == '__main__':
-
     # Initiate the parser
     parser = argparse.ArgumentParser()
 
@@ -19,8 +17,8 @@ if __name__ == '__main__':
         "--files",
         "-f",
         nargs="*",
-        help="set file paths to be merged. Example: methods/*/results/*.csv",
-        default=["methods/*/results/*.csv"])
+        help="set file paths to be merged. Example: methods/*/results/csv/*.csv",
+        default=["methods/*/results/csv/*.csv"])
     parser.add_argument("--output",
                         "-o",
                         help="file name of output. Default: users_merged.csv",
@@ -38,25 +36,41 @@ if __name__ == '__main__':
             data_files.append(file)
 
     print(f"Parsing files for... \n {data_files}")
-    df_github_names_long = pd.concat(
-        [pd.read_csv(fp) for fp in data_files],
-        axis=0,
-        keys=data_files,
-        names=["source", "row"]).reset_index("source").reset_index(drop=True)
-    # lowercase to remove duplicates correctly
-    df_github_names_long['user_id'] = df_github_names_long[
-        'user_id'].str.lower()
 
-    df_users = df_github_names_long[[
-        "user_id", "source", "service"
-    ]].sort_values(["user_id", "source",
-                    "service"]).drop_duplicates(["user_id", "source"
-                                                 ]).reset_index(drop=True)
+    # List to store DataFrames
+    dfs = []
 
-    df_users['source'] = df_users['source'].map(lambda x: pathlib.PurePath(
-        x).name)  # remove file path so the column only contains the file name
+    for fp in data_files:
+        try:
+            df = pd.read_csv(fp)
+            if not df.empty:
+                dfs.append(df)
+        except pd.errors.EmptyDataError:
+            print(f"Skipping empty file: {fp}")
 
-    current_date = datetime.today().strftime('%Y-%m-%d')
-    df_users["date"] = current_date
-    df_users.to_csv(Path(args.output), index=False)
-    print("Successfully merged users.")
+    if len(dfs) == 0:
+        print("No valid data found in any files. Nothing to merge.")
+    else:
+        df_github_names_long = pd.concat(
+            dfs,
+            axis=0,
+            keys=data_files,
+            names=["source", "row"]).reset_index("source").reset_index(drop=True)
+
+        # lowercase to remove duplicates correctly
+        df_github_names_long['user_id'] = df_github_names_long[
+            'user_id'].str.lower()
+
+        df_users = df_github_names_long[[
+            "user_id", "source", "service"
+        ]].sort_values(["user_id", "source",
+                        "service"]).drop_duplicates(["user_id", "source"
+                                                     ]).reset_index(drop=True)
+
+        df_users['source'] = df_users['source'].map(lambda x: pathlib.PurePath(
+            x).name)  # remove file path so the column only contains the file name
+
+        current_date = datetime.today().strftime('%Y-%m-%d')
+        df_users["date"] = current_date
+        df_users.to_csv(Path(args.output), index=False)
+        print("Successfully merged users.")
