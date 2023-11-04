@@ -2,17 +2,18 @@
 Prepare enriched data to be manually filtered.
 This file adds columns and info whether a user is a student.
 """
+
 import argparse
 from datetime import datetime
-
 import pandas as pd
 
 
 def read_input_file(file_path):
-    """reads in the input file through Pandas
+    """
+    Reads in the input file through Pandas
 
     Args:
-        file_path (string): path to the file
+        file_path (str): path to the file
 
     Returns:
         DataFrame
@@ -20,22 +21,23 @@ def read_input_file(file_path):
     if "xlsx" in file_path:
         file = pd.read_excel(file_path, engine='openpyxl')
     else:
-        file = pd.read_csv(file_path)
+        file = pd.read_csv(file_path, error_bad_lines=False)
     return file
 
 
 def is_student(user_bio):
-    """Checks whether a GitHub user is a student.
+    """
+    Checks whether a GitHub user is a student.
 
     The bio of a user is parsed. If it contains phd the user will not be
     marked as a student. If the bio contains only the word student the user
     will be marked as a student.
 
     Args:
-        user_id (string): user id which is named as "login" from the GitHub Api
+        user_bio (str): user bio from the GitHub Api
 
     Returns:
-        Boolean: Whether the user is a student or not
+        bool: Whether the user is a student or not
     """
     user_bio = str(user_bio).lower()
     student = False
@@ -47,8 +49,10 @@ def is_student(user_bio):
     return student
 
 
-if __name__ == '__main__':
-
+def main():
+    """
+    Main function to execute the program logic.
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("--input",
                         "-i",
@@ -77,9 +81,7 @@ if __name__ == '__main__':
     print("Adding empty columns to dataframe...")
     for column in columns_to_add:
         if column not in df_users_enriched:
-            df_users_enriched = pd.concat(
-                [df_users_enriched,
-                 pd.DataFrame(columns=[column])])
+            df_users_enriched[column] = None
         else:
             print(
                 f"Column {column} already exists. This column will be skipped."
@@ -94,3 +96,7 @@ if __name__ == '__main__':
         df_users_enriched.to_csv(args.output, index=False)
 
     print("Successfully prepared filtering.")
+
+
+if __name__ == '__main__':
+    main()

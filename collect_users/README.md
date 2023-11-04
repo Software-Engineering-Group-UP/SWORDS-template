@@ -110,7 +110,7 @@ There are 2 arguments that can be passed.
 - `--output`: The file name of the enriched output. Default: `results/users_enriched.csv`
 
 Navigate to this folder and execute the script. Adjust parameters as needed. Examples:
-
+We have not yet added manaul annotation to it 
 ```console
 python scripts/prepare_filtering.py
 python scripts/prepare_filtering.py --input results/users_enriched.xlsx --output results/users_enriched.xlsx
